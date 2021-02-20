@@ -33,8 +33,9 @@ class Solution {
                for(int q = 0 ;q<count;q++){
                    sb.append(t.substring(left+1,right));
                }
+               
                sb.append(t.substring(right+1,t.length()));
-               t = sb.toString();
+               t = sb.toString(); //reset new appended swtring and index
                left = 0;
                right = 0;
                n = -1;
