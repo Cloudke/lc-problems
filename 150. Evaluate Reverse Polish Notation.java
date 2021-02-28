@@ -3,7 +3,7 @@ class Solution {
            Stack<String> s = new Stack<>();
         
            for(int i = 0 ; i < tokens.length;i++){ 
-               if(Character.isDigit(tokens[i].charAt(0))||tokens[i].length()>1){                   
+               if(Character.isDigit(tokens[i].charAt(0))||tokens[i].length()>1){      //check if it's digit             
                    s.push(tokens[i]);
                    continue;
                }
