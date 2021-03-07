@@ -8,7 +8,7 @@ class Solution {
                    continue;
                }
                               
-               int right = Integer.parseInt(s.pop());
+               int right = Integer.parseInt(s.pop());                                 //if it's a sign,pop top 2 digits
                int left = Integer.parseInt(s.pop());
                if(tokens[i].equals("+")){
                     int n = left+right;
