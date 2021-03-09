@@ -10,7 +10,7 @@ class Solution {
                               
                int right = Integer.parseInt(s.pop());                                 //if it's a sign,pop top 2 digits
                int left = Integer.parseInt(s.pop());
-               if(tokens[i].equals("+")){
+               if(tokens[i].equals("+")){                                             //check the sign and do respond calculate
                     int n = left+right;
                     s.push(n+"");
                     
