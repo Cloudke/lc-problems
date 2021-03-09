@@ -28,6 +28,6 @@ class Solution {
                     s.push(n+"");                   
                }               
            }
-        return Integer.parseInt(s.pop());
+        return Integer.parseInt(s.pop());                                             // return the last number calculated
     }
 }
