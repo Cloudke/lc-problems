@@ -12,8 +12,7 @@ class Solution {
                int left = Integer.parseInt(s.pop());
                if(tokens[i].equals("+")){                                             //check the sign and do respond calculate
                     int n = left+right;
-                    s.push(n+"");
-                    
+                    s.push(n+"");         
                }
                else if(tokens[i].equals("-")){
                     int n = left-right;
