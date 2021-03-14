@@ -10,9 +10,7 @@ class Solution {
             return s.split("0").length>1?false:true;
     }
 }
-
-
-Java
+//check if String contains "01"
 by @blackspinner
 
     public boolean checkOnesSegment(String s) {
