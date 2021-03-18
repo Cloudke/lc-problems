@@ -1,3 +1,5 @@
+//get the first missing positive number
+
 class Solution {
     public int firstMissingPositive(int[] nums) {
            int first = 1;
