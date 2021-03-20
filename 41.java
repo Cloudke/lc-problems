@@ -4,7 +4,7 @@ class Solution {
     public int firstMissingPositive(int[] nums) {
            int first = 1;
         
-           Arrays.sort(nums);
+           Arrays.sort(nums);  //sort nums ascending
         
            for(int i = 0 ; i<nums.length;i++){
                if(nums[i]<=0){
