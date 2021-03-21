@@ -7,7 +7,7 @@ class Solution {
            Arrays.sort(nums);  //sort nums ascending
         
            for(int i = 0 ; i<nums.length;i++){
-               if(nums[i]<=0){
+               if(nums[i]<=0){  //ignore negative numbers
                    continue;
                }
                else  if(nums[i] > 1 && first == 1){
