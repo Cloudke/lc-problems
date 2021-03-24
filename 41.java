@@ -10,7 +10,7 @@ class Solution {
                if(nums[i]<=0){  //ignore negative numbers
                    continue;
                }
-               else  if(nums[i] > 1 && first == 1){
+               else  if(nums[i] > 1 && first == 1){  if first positive number is greater than 1, return 1
                    return 1;
                }               
                else if(nums[i] == first){
