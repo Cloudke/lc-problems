@@ -16,8 +16,10 @@ class Solution {
                else if(nums[i] == first){           //if current number is same as first waiting number
                    first++;
                }  
-               
-               else if(nums[i]>first && nums[i-1]<first &&i>1){
+// if current number is bigger than the first number 
+// and last number is less than first number               
+               else if(nums[i]>first && nums[i-1]<first && i>1){  
+                                                                
                    return first;
                }
            }
