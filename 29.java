@@ -1,3 +1,5 @@
+//divide two int without / sign
+
 class Solution {
     public int divide(int A, int B) {
         if (A == 1 << 31 && B == -1) return (1 << 31) - 1;
