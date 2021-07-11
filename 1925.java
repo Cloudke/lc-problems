@@ -1,3 +1,4 @@
+Count Square Sum Triples
 class Solution {
     public int countTriples(int n) {
         int c = 0;
