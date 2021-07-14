@@ -1,4 +1,7 @@
 Count Square Sum Triples
+
+Tiime O(n^2)
+
 class Solution {
     public int countTriples(int n) {
         int c = 0;
