@@ -1,13 +1,13 @@
     public int canBeTypedWords(String text, String brokenLetters) {
-        Set<Character> no = new HashSet<>();
+        Set<Character> s = new HashSet<>();
         for (char c : brokenLetters.toCharArray()) {
-            no.add(c);
+            s.add(c);
         }
         int cnt = 0;
         outer:
         for (String word : text.split("\\s")) {
             for (char c : word.toCharArray()) {
-                if (no.contains(c)) {
+                if (s.contains(c)) {
                     continue outer;
                 }
             }
